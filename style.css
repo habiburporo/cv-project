@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color:wheat;
+    font-family: "Trirong", serif;
+}
+
+header{
+
+
+
+}
+
+
+.container{
+
+       max-width:1000px;
+       background-color:burlywood;
+       margin:0 auto;
+       padding:20px;
+
+
+
+    }
+
+.profile-image{
+
+           width:100px;
+           height:120px;
+           border:3px solid white;
+           border-radius:70px;          
+           float:left;
+}
+
+.header-bio{
+
+       float:left;
+       padding:30px;
+               
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+       color:teal;
+}
+
+.header-contact{
+
+     float:right;
+     padding:30px;
+
+}
+
+.header-contact a{
+     
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+
+}
+
+.header-contact a:hover{
+ 
+        text-decoration: underline;
+        color:tomato;
+
+}
+
+.div-clear{
+
+    clear:both;
+
+}
+
+hr{
+
+   border: solid black 3px;
+   border-bottom: none;
+}
+
+ /*---------------------
+  parsonal-section start
+  ----------------------*/
+#parsonal-section{
+
+
+  }
+ 
+.content{
+   
+    margin-bottom:10px;
+
+}
+
+.left-div{
+
+    width:30%;
+    float:left;
+
+}
+
+.right-div{
+
+      width:70%;
+      float:left
+
+}
+
+.common-hr{
+
+     border:1px solid black;
+     border-bottom:none;
+
+}
+
+/*----------------------
+ education section start
+ -----------------------*/
+
+ .edu-template-left{
+
+        float:left;
+        width:45%;
+
+ }
+
+ .edu-template-right{
+
+           float:right;
+           width:45%;
+
+ }
+
+ /*-----------------------
+   Reference section start
+   -----------------------*/
+
+   .Ref-side-left{
+
+         float:left;
+         width:45%;
+
+   }
+
+   .Ref-side-right{
+          
+       float:right;
+       width: 45%;
+
+   }
+
+ /*-----------------------
+     Footer start
+  -----------------------*/
+
+  .footer-containar{
+
+        background-color:black;
+        text-align:center;
+        padding:10px;
+
+  }
+
+  .footer-containar a{
+
+       color:white;
+       text-decoration: none;
+       margin: 20px;
+  }
+
+  .footer-containar p{
+
+      color:white;
+      margin-top:20px;
+
+  }
